@@ -1,0 +1,6 @@
+$ {
+  echo '$ curl -s https://api.github.com/repos/Prasad-Aki/mcino-Introduction-to-Git-and-GitHub | grep -E '"'"'"full_name"|"fork"|"parent"'"'"''
+  curl -s https://api.github.com/repos/Prasad-Aki/mcino-Introduction-to-Git-and-GitHub | grep -E '"full_name"|"fork"|"parent"'
+} > forked-repo
+
+
